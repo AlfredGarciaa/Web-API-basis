@@ -16,9 +16,15 @@ namespace Registro_de_Usuarios
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IWebHostEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: false, reloadOnChange: true)
+                .AddEnvironmentVariables();
+
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -38,7 +44,7 @@ namespace Registro_de_Usuarios
                     Version = groupName,
                     Description = "Phoenix API",
                     Contact = new OpenApiContact
-                    {
+                    { 
                         Name = "Phoenix Company and Associates",
                         Email = string.Empty,
                         Url = new Uri("https://Phoenix.com"),

@@ -1,0 +1,7 @@
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.csproj.AssemblyReference.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.GeneratedMSBuildEditorConfig.editorconfig
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.AssemblyInfoInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.AssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.csproj.CoreCompileInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.MvcApplicationPartsAssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.MvcApplicationPartsAssemblyInfo.cache
