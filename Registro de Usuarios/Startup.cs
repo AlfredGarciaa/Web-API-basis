@@ -26,8 +26,26 @@ namespace Registro_de_Usuarios
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
+
+            services.AddSwaggerGen(options =>
+            {
+                var groupName = "v1";
+
+                options.SwaggerDoc(groupName, new OpenApiInfo
+                {
+                    Title = $"Phoenix {groupName}",
+                    Version = groupName,
+                    Description = "Phoenix API",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Phoenix Company and Associates",
+                        Email = string.Empty,
+                        Url = new Uri("https://Phoenix.com"),
+                    }
+                });
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Registro_de_Usuarios", Version = "v1" });
@@ -45,6 +63,12 @@ namespace Registro_de_Usuarios
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Phoenix API V1");
+            });
 
             app.UseRouting();
 
