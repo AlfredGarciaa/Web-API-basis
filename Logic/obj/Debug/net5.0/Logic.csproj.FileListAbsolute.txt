@@ -1,0 +1,11 @@
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\Logic.deps.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\Logic.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\ref\Logic.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\Logic.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\ref\Logic.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\Logic.pdb

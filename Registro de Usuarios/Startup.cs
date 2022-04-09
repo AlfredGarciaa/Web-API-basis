@@ -1,3 +1,4 @@
+using Logic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,13 +35,16 @@ namespace Registro_de_Usuarios
         {
             services.AddControllers();
 
+            services.AddSingleton<IUserManager, UserManager>();
+
             services.AddSwaggerGen(options =>
             {
                 var groupName = "v1";
 
                 options.SwaggerDoc(groupName, new OpenApiInfo
                 {
-                    Title = $"Phoenix {groupName}",
+                    //Title = $"Phoenix {groupName}",
+                    Title = $"{Configuration.GetSection("Application").GetSection("Title").Value} {groupName}",
                     Version = groupName,
                     Description = "Phoenix API",
                     Contact = new OpenApiContact
@@ -52,10 +56,10 @@ namespace Registro_de_Usuarios
                 });
             });
 
-            services.AddSwaggerGen(c =>
+            /*services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Registro_de_Usuarios", Version = "v1" });
-            });
+            });*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

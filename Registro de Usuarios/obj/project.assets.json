@@ -75,6 +75,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
+        }
       }
     }
   },
@@ -179,10 +189,16 @@
         "swashbuckle.aspnetcore.swaggerui.5.0.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Logic/1.0.0": {
+      "type": "project",
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Logic >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 5.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.0.0",
@@ -215,7 +231,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj": {
+              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

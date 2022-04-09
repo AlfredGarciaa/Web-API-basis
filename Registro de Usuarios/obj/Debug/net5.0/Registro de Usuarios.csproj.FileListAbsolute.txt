@@ -5,3 +5,27 @@ F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Regist
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.csproj.CoreCompileInputs.cache
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.MvcApplicationPartsAssemblyInfo.cs
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.MvcApplicationPartsAssemblyInfo.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\appsettings.Development.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\appsettings.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.exe
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.deps.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.runtimeconfig.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.runtimeconfig.dev.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\ref\Registro de Usuarios.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Registro de Usuarios.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\staticwebassets\Registro de Usuarios.StaticWebAssets.Manifest.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\staticwebassets\Registro de Usuarios.StaticWebAssets.xml
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\scopedcss\bundle\Registro de Usuarios.styles.css
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.RazorTargetAssemblyInfo.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.csproj.CopyComplete
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\ref\Registro de Usuarios.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.genruntimeconfig.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Logic.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Logic.pdb
