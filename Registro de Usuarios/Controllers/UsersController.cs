@@ -71,9 +71,16 @@ namespace Registro_de_Usuarios.Controllers
             }
         }
         [HttpDelete]
-        public IActionResult DeleteUser()
+        public IActionResult DeleteUser([FromHeader] string userName, [FromHeader] string password, [FromBody] User user)
         {
-            return Ok();
+            if (_sessionManager.ValidateCredentials(userName, password) != null)
+            {
+                return Ok(_userManager.DeleteUser(user));
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
     }
 }

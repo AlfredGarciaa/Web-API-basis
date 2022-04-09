@@ -31,11 +31,14 @@ namespace Logic
         }
         public User PutUser(User user)
         {
-            return null;
+            return user;
         }
         public User DeleteUser(User user)
         {
-            return null;
+            User userfound = Users.Find(u => u.Name == user.Name);
+            Users.Remove(userfound);
+
+            return user;
         }
     }
 }

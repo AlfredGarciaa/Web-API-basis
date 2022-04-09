@@ -11,7 +11,7 @@ namespace AuthLayer
         {
             _sessions = new List<Session>()
             {
-                new Session() { UserName = "alfredgarcia", Password = "1010", Role = "Admin" }
+                new Session() { UserName = "alfredgarcia", Password = "2525", Role = "Admin" }
             };
         }
         public Session ValidateCredentials(string userName, string password)
