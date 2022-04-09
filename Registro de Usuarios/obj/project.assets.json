@@ -76,14 +76,34 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Logic/1.0.0": {
+      "AuthLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Logic.dll": {}
+          "bin/placeholder/AuthLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Logic.dll": {}
+          "bin/placeholder/AuthLayer.dll": {}
+        }
+      },
+      "DBLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DBLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DBLayer.dll": {}
+        }
+      },
+      "LogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LogicLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogicLayer.dll": {}
         }
       }
     }
@@ -190,15 +210,27 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Logic/1.0.0": {
+    "AuthLayer/1.0.0": {
       "type": "project",
-      "path": "../Logic/Logic.csproj",
-      "msbuildProject": "../Logic/Logic.csproj"
+      "path": "../AuthLayer/AuthLayer.csproj",
+      "msbuildProject": "../AuthLayer/AuthLayer.csproj"
+    },
+    "DBLayer/1.0.0": {
+      "type": "project",
+      "path": "../DBLayer/DBLayer.csproj",
+      "msbuildProject": "../DBLayer/DBLayer.csproj"
+    },
+    "LogicLayer/1.0.0": {
+      "type": "project",
+      "path": "../Logic/LogicLayer.csproj",
+      "msbuildProject": "../Logic/LogicLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Logic >= 1.0.0",
+      "AuthLayer >= 1.0.0",
+      "DBLayer >= 1.0.0",
+      "LogicLayer >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 5.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.0.0",
@@ -232,8 +264,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj": {
-              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj"
+            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\AuthLayer\\AuthLayer.csproj": {
+              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\AuthLayer\\AuthLayer.csproj"
+            },
+            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\DBLayer\\DBLayer.csproj": {
+              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\DBLayer\\DBLayer.csproj"
+            },
+            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj": {
+              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj"
             }
           }
         }

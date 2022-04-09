@@ -27,5 +27,7 @@ F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Regist
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\ref\Registro de Usuarios.dll
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.pdb
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\obj\Debug\net5.0\Registro de Usuarios.genruntimeconfig.cache
-F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Logic.dll
-F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\Logic.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\AuthLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\LogicLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\AuthLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Registro de Usuarios\bin\Debug\net5.0\LogicLayer.pdb

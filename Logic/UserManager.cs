@@ -6,19 +6,22 @@ namespace Logic
     public class UserManager : IUserManager
     {
         public List<User> Users { get; set; }
+        //public UserManager(IDbLayer dbLayer)
         public UserManager()
         {
             Users = new List<User>()
             {
-                new User() { Name = "Alvaro" },
-                new User() { Name = "Estefani" },
-                new User() { Name = "Ivan" },
-                new User() { Name = "Oscar" },
-                new User() { Name = "Ursoc" }
+                new User() { Ci = 75461, Name = "Alvaro", LastName = "Urpita"},
+                new User() { Ci =29101, Name = "Estefani", LastName = "Omonte"},
+                new User() { Ci =17156, Name = "Ivan", LastName = "Iskay"},
+                new User() { Ci =54297, Name = "Oscar", LastName = "Epifania"},
+                new User() { Ci =01020, Name = "Ursoc", LastName = "Amparo"},
             };
         }
         public List<User> GetUsers()
         {
+            // Sacamos de una CAPA PERSISTIDA, no me alcanzo el tiempo
+            //List<User> users = _dbLayer.GetUser();
             return Users;
         }
         public User PostUser(User user)

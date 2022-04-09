@@ -33,7 +33,8 @@
     ".NETCoreApp,Version=v5.0": {
       "Registro de Usuarios/1.0.0": {
         "dependencies": {
-          "Logic": "1.0.0",
+          "AuthLayer": "1.0.0",
+          "LogicLayer": "1.0.0",
           "Swashbuckle.AspNetCore": "5.0.0",
           "Swashbuckle.AspNetCore.Swagger": "5.0.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0",
@@ -388,12 +389,20 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
-      "Logic/1.0.0": {
+      "AuthLayer/1.0.0": {
         "runtime": {
-          "Logic.dll": {}
+          "AuthLayer.dll": {}
         },
         "compile": {
-          "Logic.dll": {}
+          "AuthLayer.dll": {}
+        }
+      },
+      "LogicLayer/1.0.0": {
+        "runtime": {
+          "LogicLayer.dll": {}
+        },
+        "compile": {
+          "LogicLayer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2144,7 +2153,12 @@
       "path": "swashbuckle.aspnetcore.swaggerui/5.0.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.0.0.nupkg.sha512"
     },
-    "Logic/1.0.0": {
+    "AuthLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

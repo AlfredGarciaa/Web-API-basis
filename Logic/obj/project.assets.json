@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj",
-      "projectName": "Logic",
-      "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\Logic.csproj",
+      "projectUniqueName": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj",
+      "projectName": "LogicLayer",
+      "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj",
       "packagesPath": "C:\\Users\\ALFERED\\.nuget\\packages\\",
       "outputPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\obj\\",
       "projectStyle": "PackageReference",

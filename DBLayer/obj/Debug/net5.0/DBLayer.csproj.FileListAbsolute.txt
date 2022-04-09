@@ -1,0 +1,12 @@
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\bin\Debug\net5.0\DBLayer.deps.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\bin\Debug\net5.0\DBLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\bin\Debug\net5.0\ref\DBLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\bin\Debug\net5.0\DBLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.csproj.AssemblyReference.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.AssemblyInfoInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.AssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.csproj.CoreCompileInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\ref\DBLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\DBLayer\obj\Debug\net5.0\DBLayer.pdb

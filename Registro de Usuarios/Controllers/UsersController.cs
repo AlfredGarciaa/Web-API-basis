@@ -1,4 +1,5 @@
-﻿using Logic;
+﻿using AuthLayer;
+using Logic;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,27 +14,64 @@ namespace Registro_de_Usuarios.Controllers
     public class UsersController : ControllerBase
     {
         private IUserManager _userManager;
-        public UsersController(IUserManager userManager)
+        private ISessionManager _sessionManager;
+        public UsersController(IUserManager userManager, ISessionManager sessionManager)
         {
+            // this = _ (evita ambiguedades)
             _userManager = userManager;
+            _sessionManager = sessionManager;
         }
         [HttpGet]
-        public IActionResult GetUsers()
+        public IActionResult GetUsers([FromHeader] string userName, [FromHeader] string password)
         {
-            return Ok(_userManager.GetUsers());
+            if (_sessionManager.ValidateCredentials(userName, password) != null)
+            {
+                //var userList = _userManager.GetUsers();
+                return Ok(_userManager.GetUsers());
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
         [HttpPost]
-        public IActionResult PostUsers(User user)
+        public IActionResult PostUser([FromHeader] string userName, [FromHeader] string password, [FromBody] User user)
         {
-            return Ok(_userManager.PostUser(user));
+            if (_sessionManager.ValidateCredentials(userName, password) != null)
+            {
+                return Ok(_userManager.PostUser(user));
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
         [HttpPut]
-        public IActionResult PutUsers()
+        public IActionResult PutUser(User user)
         {
-            return Ok();
+            /* OTRA MANERA DE ESCRIBIR
+            if(user.Ci <= 0 || user.Name == null || user.Name.Trim() == "")
+            {
+
+            }*/
+            //Se identifico una manera mas detallada e interesante
+            if (user.Ci <= 0 || String.IsNullOrEmpty(user.Name))
+            {
+
+            }
+
+            User updated = _userManager.PutUser(user);
+            if(updated != null)
+            {
+                return Ok(updated);
+            }
+            else
+            {
+                return BadRequest("No se encuentra el usuario");
+            }
         }
         [HttpDelete]
-        public IActionResult DeleteUsers()
+        public IActionResult DeleteUser()
         {
             return Ok();
         }

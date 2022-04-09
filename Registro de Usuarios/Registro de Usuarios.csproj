@@ -13,7 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Logic\Logic.csproj" />
+    <ProjectReference Include="..\AuthLayer\AuthLayer.csproj" />
+    <ProjectReference Include="..\DBLayer\DBLayer.csproj" />
+    <ProjectReference Include="..\Logic\LogicLayer.csproj" />
   </ItemGroup>
 
 </Project>

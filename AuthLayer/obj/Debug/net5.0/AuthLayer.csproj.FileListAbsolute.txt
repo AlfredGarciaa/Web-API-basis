@@ -1,0 +1,11 @@
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\bin\Debug\net5.0\AuthLayer.deps.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\bin\Debug\net5.0\AuthLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\bin\Debug\net5.0\ref\AuthLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\bin\Debug\net5.0\AuthLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.AssemblyInfoInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.AssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.csproj.CoreCompileInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\ref\AuthLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\AuthLayer\obj\Debug\net5.0\AuthLayer.pdb
