@@ -1,0 +1,11 @@
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\bin\Debug\net5.0\ServicesLayer.deps.json
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\bin\Debug\net5.0\ServicesLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\bin\Debug\net5.0\ref\ServicesLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\bin\Debug\net5.0\ServicesLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.AssemblyInfoInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.AssemblyInfo.cs
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.csproj.CoreCompileInputs.cache
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ref\ServicesLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\ServicesLayer\obj\Debug\net5.0\ServicesLayer.pdb

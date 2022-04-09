@@ -79,6 +79,9 @@
       "AuthLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ServicesLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/AuthLayer.dll": {}
         },
@@ -99,11 +102,25 @@
       "LogicLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DBLayer": "1.0.0",
+          "ServicesLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/LogicLayer.dll": {}
         },
         "runtime": {
           "bin/placeholder/LogicLayer.dll": {}
+        }
+      },
+      "ServicesLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ServicesLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicesLayer.dll": {}
         }
       }
     }
@@ -224,12 +241,16 @@
       "type": "project",
       "path": "../Logic/LogicLayer.csproj",
       "msbuildProject": "../Logic/LogicLayer.csproj"
+    },
+    "ServicesLayer/1.0.0": {
+      "type": "project",
+      "path": "../ServicesLayer/ServicesLayer.csproj",
+      "msbuildProject": "../ServicesLayer/ServicesLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AuthLayer >= 1.0.0",
-      "DBLayer >= 1.0.0",
       "LogicLayer >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 5.0.0",
@@ -266,9 +287,6 @@
           "projectReferences": {
             "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\AuthLayer\\AuthLayer.csproj": {
               "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\AuthLayer\\AuthLayer.csproj"
-            },
-            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\DBLayer\\DBLayer.csproj": {
-              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\DBLayer\\DBLayer.csproj"
             },
             "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj": {
               "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\Logic\\LogicLayer.csproj"

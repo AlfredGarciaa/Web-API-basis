@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "AuthLayer/1.0.0": {
+        "dependencies": {
+          "ServicesLayer": "1.0.0"
+        },
         "runtime": {
           "AuthLayer.dll": {}
+        }
+      },
+      "ServicesLayer/1.0.0": {
+        "runtime": {
+          "ServicesLayer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AuthLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServicesLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

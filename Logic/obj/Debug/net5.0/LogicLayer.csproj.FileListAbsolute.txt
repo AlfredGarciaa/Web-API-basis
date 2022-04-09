@@ -10,3 +10,8 @@ F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Regist
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\LogicLayer.dll
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\ref\LogicLayer.dll
 F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\LogicLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\DBLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\ServicesLayer.dll
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\DBLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\bin\Debug\net5.0\ServicesLayer.pdb
+F:\UCB - Ingeniera de Sistemas\Semestre 1-2022\Tecnologias Web\Practica 2\Registro de Usuarios\Logic\obj\Debug\net5.0\LogicLayer.csproj.CopyComplete

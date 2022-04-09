@@ -7,14 +7,38 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "LogicLayer/1.0.0": {
+        "dependencies": {
+          "DBLayer": "1.0.0",
+          "ServicesLayer": "1.0.0"
+        },
         "runtime": {
           "LogicLayer.dll": {}
+        }
+      },
+      "DBLayer/1.0.0": {
+        "runtime": {
+          "DBLayer.dll": {}
+        }
+      },
+      "ServicesLayer/1.0.0": {
+        "runtime": {
+          "ServicesLayer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "LogicLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServicesLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

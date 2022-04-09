@@ -1,3 +1,4 @@
+using AuthLayer;
 using Logic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,6 +37,17 @@ namespace Registro_de_Usuarios
             services.AddControllers();
 
             services.AddSingleton<IUserManager, UserManager>();
+            services.AddSingleton<ISessionManager, SessionManager>();
+            
+            services.AddCors(options =>
+              {
+                  options.AddPolicy("AllowAnyOrigin",
+                      builder => builder
+                      .AllowAnyOrigin()
+                      .AllowAnyHeader()
+                      .AllowAnyMethod()
+                  );
+              });
 
             services.AddSwaggerGen(options =>
             {
@@ -72,7 +84,7 @@ namespace Registro_de_Usuarios
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Registro_de_Usuarios v1"));
             }
 
-            app.UseHttpsRedirection();
+            app.UseCors("AlloAnyOrigin");
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>

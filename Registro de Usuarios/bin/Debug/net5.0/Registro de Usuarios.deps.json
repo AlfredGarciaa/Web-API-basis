@@ -390,6 +390,9 @@
         }
       },
       "AuthLayer/1.0.0": {
+        "dependencies": {
+          "ServicesLayer": "1.0.0"
+        },
         "runtime": {
           "AuthLayer.dll": {}
         },
@@ -397,12 +400,32 @@
           "AuthLayer.dll": {}
         }
       },
+      "DBLayer/1.0.0": {
+        "runtime": {
+          "DBLayer.dll": {}
+        },
+        "compile": {
+          "DBLayer.dll": {}
+        }
+      },
       "LogicLayer/1.0.0": {
+        "dependencies": {
+          "DBLayer": "1.0.0",
+          "ServicesLayer": "1.0.0"
+        },
         "runtime": {
           "LogicLayer.dll": {}
         },
         "compile": {
           "LogicLayer.dll": {}
+        }
+      },
+      "ServicesLayer/1.0.0": {
+        "runtime": {
+          "ServicesLayer.dll": {}
+        },
+        "compile": {
+          "ServicesLayer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2158,7 +2181,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DBLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "LogicLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServicesLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

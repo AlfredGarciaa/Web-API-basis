@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ServicesLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ServicesLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicesLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ServicesLayer/1.0.0": {
+      "type": "project",
+      "path": "../ServicesLayer/ServicesLayer.csproj",
+      "msbuildProject": "../ServicesLayer/ServicesLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ServicesLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ALFERED\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\ServicesLayer\\ServicesLayer.csproj": {
+              "projectPath": "F:\\UCB - Ingeniera de Sistemas\\Semestre 1-2022\\Tecnologias Web\\Practica 2\\Registro de Usuarios\\ServicesLayer\\ServicesLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
