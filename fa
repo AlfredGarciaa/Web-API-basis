@@ -1,0 +1,67 @@
+* [33mcommit 31f7da5f4cd64b1b87d77424f87cfd67a9d619bc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/P1-001[m[33m, [m[1;32mdevelop[m[33m, [m[1;32mP1-001[m[33m)[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Sat Apr 9 01:06:54 2022 -0400
+[31m|[m 
+[31m|[m     Initialized database with AuthLayer and LogicLayer in DBLayer. Branch bifurcation
+[31m|[m 
+* [33mcommit 832cd5d672826ab2252c747c0adf31d80118342e[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Sat Apr 9 00:44:32 2022 -0400
+[31m|[m 
+[31m|[m     Added README file.
+[31m|[m 
+* [33mcommit 6e115cc804904c55d42774fb8e810aa19e3a4559[m[33m ([m[1;31morigin/main[m[33m)[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Sat Apr 9 00:39:52 2022 -0400
+[31m|[m 
+[31m|[m     Final version V2
+[31m|[m 
+* [33mcommit da509a6f2da4a1a6efebce6cb310eee719d2264e[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 23:33:37 2022 -0400
+[31m|[m 
+[31m|[m     Final version
+[31m|[m 
+* [33mcommit 2d1b875415ff0db11fc7688bbc120ba7e5bb648b[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 22:43:51 2022 -0400
+[31m|[m 
+[31m|[m     Addition of the Put and Addition of session validation
+[31m|[m 
+* [33mcommit b78aac460d4db810b8d4fbc9b9fd493649b61dd0[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 20:04:28 2022 -0400
+[31m|[m 
+[31m|[m     Refactorizacion de Application para GET y POST
+[31m|[m 
+* [33mcommit 20e1908d5e38c6c0244601ca32d390dfd4bf83eb[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 18:22:13 2022 -0400
+[31m|[m 
+[31m|[m     This WEB API should have a configuration that contains the application name, and
+[31m|[m     this application name should be displayed in SWAGGER interface
+[31m|[m 
+* [33mcommit ac9abb497e6cde0d1600995aa92acb47690a1df9[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 18:11:51 2022 -0400
+[31m|[m 
+[31m|[m     This WEB API should have SWAGGER interface to interact with the different
+[31m|[m     endpoints
+[31m|[m 
+* [33mcommit d632d64259903bd7f4cc72b2d630aecaabfda839[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 17:54:02 2022 -0400
+[31m|[m 
+[31m|[m     This WEB API should have two ASSEMBLIES
+[31m|[m 
+* [33mcommit c237dc50344b3a39832e4cf341792e382915b4a3[m
+[31m|[m Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+[31m|[m Date:   Fri Apr 8 17:43:00 2022 -0400
+[31m|[m 
+[31m|[m     This WEB API will contain endpoints as part of a controller to manage USERS
+[31m|[m 
+* [33mcommit b36a0fbce7b8a23f004fa9cd24331140ecd4d9dd[m
+  Author: Alfred Garcia <alfred.garcia@ucb.edu.bo>
+  Date:   Fri Apr 8 17:39:33 2022 -0400
+  
+      Create a new WEB API project with NetCore
